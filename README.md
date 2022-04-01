@@ -5,7 +5,7 @@ Hippocampus & dentate gyrus surfaces and subfield segmentations, by running Hipp
 All surfaces have corresponding vertices, and come in three different densities (0p5mm, 1mm, 2mm) which relate to their approximate vertex spacing.
 
 
-Potential use cases:
+## Use cases:
  1. Sampling volumetric data to hippocampal surfaces (`wb_command -volume-to-surface-mapping`)
  2. Mapping hippocampal surface data (metric/label) to a standard template space (`wb_command -{metric/label}-to-volume-mapping`)
 
