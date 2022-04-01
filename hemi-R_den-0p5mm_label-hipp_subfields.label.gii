@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-0p5mm_label-hipp_subfields.label.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-convert -from-nifti work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-0p5mm_label-hipp_subfields.label.nii /local/scratch/hippunfold/hippunfold/workflow/../resources/unfold_template_hipp/tpl-avg_space-unfold_den-0p5mm_midthickness.surf.gii work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-0p5mm_label-hipp_subfields.label.func.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 76441605d20536d81034a64c9d34ec393aa528b9
+Commit Date: 2021-02-16 13:46:47 -0600
+Compiled with OpenMP: YES
+Compiler: g++ (/home/caret/gcc/install/gcc-4.8.5/bin)
+Compiler Version: 4.8.5
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-label-import work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-0p5mm_label-hipp_subfields.label.func.gii /local/scratch/hippunfold/hippunfold/workflow/../resources/bigbrain/sub-bigbrain_labellist.txt hippunfold/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-0p5mm_label-hipp_subfields.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/local/scratch/templateflow-hippunfold/hippunfold-templates]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="7262"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>

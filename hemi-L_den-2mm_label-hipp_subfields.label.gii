@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-L_space-T1w_den-2mm_label-hipp_subfields.label.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-convert -from-nifti work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-L_space-T1w_den-2mm_label-hipp_subfields.label.nii /local/scratch/hippunfold/hippunfold/workflow/../resources/unfold_template_hipp/tpl-avg_space-unfold_den-2mm_midthickness.surf.gii work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-L_space-T1w_den-2mm_label-hipp_subfields.label.func.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 76441605d20536d81034a64c9d34ec393aa528b9
+Commit Date: 2021-02-16 13:46:47 -0600
+Compiled with OpenMP: YES
+Compiler: g++ (/home/caret/gcc/install/gcc-4.8.5/bin)
+Compiler Version: 4.8.5
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-label-import work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-L_space-T1w_den-2mm_label-hipp_subfields.label.func.gii /local/scratch/hippunfold/hippunfold/workflow/../resources/bigbrain/sub-bigbrain_labellist.txt hippunfold/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-L_space-T1w_den-2mm_label-hipp_subfields.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/local/scratch/templateflow-hippunfold/hippunfold-templates]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="419"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+   </MetaData>
+   <Data>eJy9VFsOwyAMC3nc/8pjUqt5rkMnKu3DApLgGFM6zCwmHDAmcqKOOcKbnN/k44gz3xD9vOkbwKX2n70TYtgfObCG61lnkkcYS7FmTod1EHKxJ+zb16C6k0P5iVrRAzXi3Xf3FFRfcGY+F94hroP6rLRhPX+ffC7W73b1gMeVT8ypUE1c9V3Nf8H5LpQP/wC+yx080c0+r7TkBt9OvdKgdD7xU+WziXceDciVfd7sXa9q+qFuxYf/0yIk1SaNb7wAtKEDtA==</Data>
+</DataArray>
+</GIFTI>

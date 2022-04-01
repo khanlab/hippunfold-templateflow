@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-1mm_label-hipp_subfields.label.func.gii:
+/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-convert -from-nifti work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-1mm_label-hipp_subfields.label.nii /local/scratch/hippunfold/hippunfold/workflow/../resources/unfold_template_hipp/tpl-avg_space-unfold_den-1mm_midthickness.surf.gii work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-1mm_label-hipp_subfields.label.func.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 76441605d20536d81034a64c9d34ec393aa528b9
+Commit Date: 2021-02-16 13:46:47 -0600
+Compiled with OpenMP: YES
+Compiler: g++ (/home/caret/gcc/install/gcc-4.8.5/bin)
+Compiler Version: 4.8.5
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/opt/workbench/bin_linux64/../exe_linux64/wb_command -metric-label-import work/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-1mm_label-hipp_subfields.label.func.gii /local/scratch/hippunfold/hippunfold/workflow/../resources/bigbrain/sub-bigbrain_labellist.txt hippunfold/sub-OASIS30ANTs/surf/sub-OASIS30ANTs_hemi-R_space-T1w_den-1mm_label-hipp_subfields.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/local/scratch/templateflow-hippunfold/hippunfold-templates]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[Subiculum]]></Label>
+      <Label Key="2" Red="0.521569" Green="0.870588" Blue="1" Alpha="1"><![CDATA[CA1]]></Label>
+      <Label Key="3" Red="0" Green="1" Blue="0.666667" Alpha="1"><![CDATA[CA2]]></Label>
+      <Label Key="4" Red="1" Green="0.635294" Blue="0" Alpha="1"><![CDATA[CA3]]></Label>
+      <Label Key="5" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[CA4]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="2004"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+   </MetaData>
+   <Data>eJztWNuugzAMK9D+/y+fPSySZ5xLgY0daQ8RBZqb42RlS2ttfcj2kOUpK0mndwPu8Xl/inofCerO2rDYTS/ap9aRzU3YZGzsudqrxHLzfKBdxKOKJWO4Nh8jw3ibsL+AjS78mk+7Z7wwvypmyjf7VT4tL7sf5LfCG+WL18z9te3j2UT+qIuxzIiqR5SP0uU6Il8QS47f9JDH1Xh5rbiU1cL8Rjkr/9jjWC8167h/ZjjjYYy85xnQ6R3bxDgi6W0fr6pRFm92RW4wR/heYcy129orLpxThp/a79nLsJvhaLQ/wlNh5M0KxFtxkbnDPaKu0TvmYAU71onmTGUecH8jNh6/BvlC3nFs+OzI9SxuzPtoHfUh+47w8nAzrEZQ06zmGQ5Rn1fyV/PQq0nWZ8wZxRe8jrbPeSY+T+9o7jP+vGfRb7zCB/FQHFB1VzPsqpy8vVhz64csRz6b4hwxu9wri6Nf2cvPK9xW2CrBPPmMs5IPVasMI++81J216icVC2Ph4cQYZjFWchnCD2NUxSWar1xnL1+lU11/SgbgZvPxaBxeXVU/qfuMFyquKNbs3SdxfmftcLZbbsb5u2P8yf8T5pOJPftxK8cP7/F3/66YOtX1jvk3nPU7sf8myf5bW9vrt8oVPtR30VF7eJ6297N2OV+24+Wd4ZbpZnbO4IP+1Xk54ynXp3Le9fA7UxuLy5v/0fzI+BpxELnl5Z+dIc+I+b9qn+LZDJ97wdfRfVkdsnhG4s+4EPWpwkPpzNRO8ZHxUTMm8oU28JtY+VezkfcpHe57nrVsP6sz6qlcKlwZ5DeaCRl3Zvol443SOTsD2P4fH9kR2A==</Data>
+</DataArray>
+</GIFTI>
