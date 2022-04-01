@@ -13,17 +13,21 @@ Note: you have the choice of interpolation with `wb_command` and can perform rib
 
 Volumetric ROIs of the subfields are also provided in each space (`_dseg.nii.gz`). These relate to the `res-1` or `res-01` T1w images.
 
+## What templates are included?
 
+I only included human T1w data in this initial release (and as an oversight, did not include any templates that were nested in cohorts). Hope to include these later. 
 
 ## How were these files created?
 
 These steps were carried out:
  1. pull template T1w images from template flow into `template_images/tpl-{subject}_res-1_T1w.nii.gz`
- 2. rename res-01 to res-1 to make naming consistent and life easier
+ 2. rename `res-01` to `res-1` to make naming consistent and life easier
  3. run hippunfold on those templates:
-    hippunfold - hippunfold-templates participant -p --keep-work --modality T1w --path_T1w=template_images/tpl-{subject}_res-1_T1w.nii.gz --cores all  --use-singularity  --output-density 1mm 2mm 0p5mm
+
+    ```hippunfold - hippunfold-templates participant -p --keep-work --modality T1w --path_T1w=template_images/tpl-{subject}_res-1_T1w.nii.gz --cores all  --use-singularity  --output-density 1mm 2mm 0p5mm```
  4. copy out dseg and surf.gii files in space-T1w:
-    cp  hippunfold-templates/hippunfold/sub-*/anat/*space-T1w_*dseg.nii.gz hippunfold-templates/hippunfold/sub-*/surf/*space-T1w*label-{hipp,dentate}_{inner,outer,midthickness}.surf.gii .
+
+    ```cp  hippunfold-templates/hippunfold/sub-*/anat/*space-T1w_*dseg.nii.gz hippunfold-templates/hippunfold/sub-*/surf/*space-T1w*label-{hipp,dentate}_{inner,outer,midthickness}.surf.gii .```
  5. rename sub- to tpl-, and put back in tpl- subfolders
 
 
@@ -39,3 +43,4 @@ bioRxiv 2021.12.03.471134; doi: https://doi.org/10.1101/2021.12.03.471134
 
 
 See www.templateflow.org and https://github.com/khanlab/hippunfold for more information.
+
